@@ -10,7 +10,7 @@
 
 h1 {
 	font-weight: 100;
-	font-family: 'Helvetica Neue';
+	font-family: 'Helvetica';
 	letter-spacing: 5px;
 
 }
@@ -111,8 +111,8 @@ section {
 }
 
 .header-button {
-    background-color: #000639 !important;
-    border: 2px solid #000639 !important;
+    background-color: #000000 !important;
+    border: 2px solid #000000 !important;
     color: #ffffff !important;
     padding: 10px !important;
     height: 40px !important;
@@ -122,15 +122,15 @@ section {
 
 .header-button:hover {
     background-color: #444444 !important;
-    color: #ffffff !important;
+    color: #000000 !important;
     border-color: #444444 !important;
-	  text-decoration: none !important;
+	text-decoration: none !important;
 }
 
 .vq-button {
-    background-color: transparent; 
-    border: 2px solid  #000639;
-    color:  #000639;
+    background-color: #4CAAD8; 
+    border: 2px solid  #4CAAD8;
+    color:  #ffffff;
     padding: 10px 22px;
     text-align: center;
     text-decoration: none;
@@ -140,14 +140,14 @@ section {
 	border-radius: 2px;
 	-webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
-	height: 50px;
-
+	height: 50px !important;
+    width: 180px !important;
 }
 
 .vq-button:hover {
-    background-color:  #000639;
+    background-color:  #4CAAD8;
     color: #ffffff;
-	  text-decoration: none;
+	text-decoration: none;
     border-color: #ffffff;
 }
 
@@ -577,10 +577,10 @@ section {
 
 
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Helvetica';
 	font-size: 15px;
-  background-color:#F8F9F9;
-	font-weight: 100;
+    background-color:#F8F9F9;
+	font-weight: 50;
 	color: #546e7a;
 	line-height: 1.6;
 	text-align: center;
@@ -621,7 +621,7 @@ ul {
   left:0;
 }
 .price-header {
-  color:#000639;
+  color:#000000;
   right: 10px;
   border-bottom:1px solid #ddd;
   position:relative;
@@ -633,7 +633,7 @@ ul {
   bottom:-2px;
   width:0;
   height:4px;
-  background:#fb8b8a;
+  background:#000000;
   transition: all 250ms ease;
 }
 .price-wrapp:hover  .price-header::after{

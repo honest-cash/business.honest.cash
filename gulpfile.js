@@ -38,14 +38,6 @@ gulp.task('runServer', function () {
 gulp.task('build', function () {
 
   gulp.src(['src/**/index.html'])
-    .pipe(replace({
-      patterns: [
-        {
-          match: 'VQ_TENANT_API_URL',
-          replacement: process.env.TENANT_API_URL
-        }
-      ]
-    }))
     .pipe(fileinclude({
       prefix: '@@',
       basepath: '@file'
@@ -54,14 +46,6 @@ gulp.task('build', function () {
     .pipe(gulp.dest('public'));
 
   gulp.src(['src/**/*.js'])
-    .pipe(replace({
-      patterns: [
-        {
-          match: 'VQ_TENANT_API_URL',
-          replacement: process.env.TENANT_API_URL
-        }
-      ]
-    }))
     .pipe(babel({
         presets: [ 'env' ]
     }))
