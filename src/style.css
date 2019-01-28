@@ -128,8 +128,7 @@ section {
 }
 
 .vq-button {
-    background-color: #4CAAD8; 
-    border: 2px solid  #4CAAD8;
+    background-color: black; 
     color:  #ffffff;
     padding: 10px 22px;
     text-align: center;
@@ -137,10 +136,10 @@ section {
     display: inline-block;
     font-size: 16px;
     font-weight:normal;
-	border-radius: 2px;
-	-webkit-transition-duration: 0.4s;
+  	border-radius: 2px;
+	  -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
-	height: 50px !important;
+	  height: 50px !important;
     width: 180px !important;
 }
 
